@@ -2,7 +2,7 @@
 import math
 import argparse
 parser = argparse.ArgumentParser(description='Spherical Harmonics')
-parser.add_argument('-l', '--order', type=int, default=3, help='Order')
+parser.add_argument('-l', '--degree', type=int, default=3, help='Degree')
 parser.add_argument('--theta', type=float, default=0.0, help='Theta in radians')
 parser.add_argument('--phi', type=float, default=0.0, help='Phi in radians')
 
